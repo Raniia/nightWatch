@@ -17,7 +17,7 @@
   "test_settings" : {
     "default" : {
       "webdriver": {
-        "server_path": "./bin/geckodriver-0.20",
+        "server_path": "./bin/geckodriver",
         "cli_args": [
           "--log", "debug"
         ]
@@ -42,7 +42,7 @@
       "webdriver": {
         "port": 9515,
         "default_path_prefix": "",
-        "server_path": "./bin/chromedriver-2.32",
+        "server_path": "./bin/chromedriver",
         "cli_args": [
           "--verbose"
         ]
@@ -62,7 +62,7 @@
     "mocha" : {
       "webdriver" : {
         "default_path_prefix": "",
-        "server_path": "./bin/chromedriver-2.32",
+        "server_path": "./bin/chromedriver",
         "cli_args": [
           "--verbose"
         ]
@@ -80,10 +80,10 @@
         "start_process": true,
         "host": "localhost",
         "port": 4444,
-        "server_path": "./bin/selenium-server-standalone-3.10.0.jar",
+        "server_path": "./bin/selenium-server-standalone-3.9.1.jar",
         "cli_args": {
-          "webdriver.gecko.driver": "./bin/geckodriver-0.19",
-          "webdriver.chrome.driver": "./bin/chromedriver-2.32"
+          "webdriver.gecko.driver": "./bin/geckodriver",
+          "webdriver.chrome.driver": "./bin/chromedriver"
         }
       },
 
